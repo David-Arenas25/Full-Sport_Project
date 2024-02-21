@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compra</title>
+    <style>
+        /* Puedes agregar estilos CSS según tus preferencias */
+    </style>
+</head>
+<body>
+
+    <h2>Carrito de Compra</h2>
+
+        <table border="1" align="center">
+            <form >
+        
+                <!-- Producto 1 -->
+                <label for="nombreProducto">Nombre del Producto:</label>
+                <input type="text" id="nombreProducto" name="nombreProducto" placeholder="Ingrese el nombre del producto" required>
+                
+                <label for="cantidad1">Cantidad:</label>
+                <input type="number" id="cantidad1" name="cantidad1" value="1" min="1">
+                <label for="precio1">Precio unitario:</label>
+                <input type="text" id="precio1" name="precio1" value="$10.00" readonly>
+                <br>
+
+                <!-- Producto 2 (puedes replicar este bloque para más productos) -->
+                <label for="producto2">Producto 2:</label>
+                <input type="text" id="producto2" name="producto2" value="Nombre del Producto 2" readonly>
+                <label for="cantidad2">Cantidad:</label>
+                <input type="number" id="cantidad2" name="cantidad2" value="1" min="1">
+                <label for="precio2">Precio unitario:</label>
+                <input type="text" id="precio2" name="precio2" value="$20.00" readonly>
+                <br>
+
+                <!-- Otros campos del formulario (nombre, dirección, etc.) -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="direccion">Dirección de envío:</label>
+                <textarea id="direccion" name="direccion" required></textarea>
+                <br>
+
+                <!-- Botón de enviar -->
+                <input type="submit" value="Realizar Pedido">
+            </form>
+        </table>   
+
+</body>
+</html>
+
+    
