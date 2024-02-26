@@ -1,5 +1,10 @@
-main ,#logo ,h1 ,input ,.notifications,nav,main,footer{
+main,#Buscar ,#logo ,h1 ,input ,.notifications,nav,main,footer{
     float: left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 #logo{
     height: 200px;
@@ -18,6 +23,12 @@ input{
     height: 40px;
 }
 
+#Buscar{
+    height: 30px;
+    margin-top: 100px;
+    
+}
+
 .notifications{
     margin-left: 100px;
 }
@@ -30,6 +41,7 @@ input{
 nav{
     margin-left: 100px;
     margin-top: 100px;
+    margin-bottom: 200px;
     
 }
 
@@ -40,11 +52,7 @@ nav img{
 
 .nav-a a{
     padding-right: 100px;
-}
-
-main{
-    margin-top: 200px;
-    margin-left: 150px;
+    font-size: 20px;
 }
 
 main, img{
@@ -57,11 +65,49 @@ main a{
     font-size: 30px;
 }
 
-main p{
-    font-size: 40px;
+main,p{
+    font-size: 30px;
 }
 
+table{
+    margin-top: 200px;
+}
+
+footer{
+    margin-top: 200px;
+    margin-left: 517px;
+
+}
 
 footer img{
     height: 60px;
+
+}
+
+#formulario_login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#formularioLogin {
+    display: flex;
+    flex-direction: column;
+}
+
+.f1_label {
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+#formulario_login input {
+    margin-bottom: 10px;
 }
