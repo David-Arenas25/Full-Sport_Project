@@ -1,0 +1,67 @@
+main ,#logo ,h1 ,input ,.notifications,nav,main,footer{
+    float: left;
+}
+#logo{
+    height: 200px;
+}
+
+h1{ 
+    
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+input{
+    margin-top: 95px;
+    margin-left: 30px;
+    width: 400px;
+    height: 40px;
+}
+
+.notifications{
+    margin-left: 100px;
+}
+.notifications img{
+    height: 40px;
+    margin-right: 20px;
+
+}
+
+nav{
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
+nav img{
+    height: 150px;
+
+}
+
+.nav-a a{
+    padding-right: 100px;
+}
+
+main{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+main, img{
+    height: 400px;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+main p{
+    font-size: 40px;
+}
+
+
+footer img{
+    height: 60px;
+}
