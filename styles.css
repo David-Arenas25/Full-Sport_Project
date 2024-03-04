@@ -1,3 +1,8 @@
+
+
+  img{
+    transform: scale(1.1);
+  }
 #logo {
     height: 150px;
     margin-left: 61.25px;
@@ -185,9 +190,11 @@ footer img {
         margin-top: 20px;
         margin-left: 0px;
     }
-    
-    #buscar {
-       display: none;
+
+
+    #buscar{
+        margin-top: 10px;
+        margin-left: 50px;
     }
 
     .notificaciones{
@@ -264,15 +271,17 @@ footer img {
     }
     
     input {
-        height: 30px;
-        width: 400px;
+        border-radius: 10px;
+        height: 40px;
+        width: 600px;
         margin-top: 60px;
-        margin-left: 210px;
-        padding-left: 10px;
+        margin-left: 150px;
+        padding-left: 20px;
     }
   
     #buscar {
-       margin-left: 600px;
+        margin-top: -30px;
+       margin-left: 730px;
     }
 
     .notificaciones{
@@ -335,9 +344,16 @@ footer img {
     
 }
 
-@media screen and (min-width: 1290px) {
+@media screen and (min-width: 1000px) {
+    
+img:hover {
+transform: scale(1.2);
+transition: transform 0.3s ease-in-out;
+}
 
- header{
+
+
+ section{
     display: grid;
     grid-template-columns: repeat(5,auto);
  }
@@ -356,19 +372,25 @@ input{
     margin-top: 150px;
 }
 #buscar{
-    margin-left: 0px;
+    margin-left: 10px
 }
 #buscar img{
-    margin-top: 185px;
-    margin-left: -30px
+    margin-top: 195px;
+    margin-left: -40px;
+}
+
+.notificaciones{
+    margin: 0px;
 }
  nav {
     margin-top: 130px;
-    margin-left: 320px;
+    margin-left: 220px;
 }
 
 nav img {
+    margin-right: 50px;
     height: 150px;
+    margin-top: 30px;
 }
 
 main {
@@ -377,17 +399,66 @@ main {
     grid-template-rows: repeat(6,auto);
     margin-top: 300px;
     justify-items: center;
+    gap: 80px;
 
 }
 
 
 main img {
-    height: 300px;
+
+    height: 250px;
     margin-top: 0px;
     margin-left: 0px;
 
 
 }
+
+#gold{
+    grid-column-start: 1;
+    grid-row-end: 1;
+    
+}
+
+#iso{
+    grid-column-start: 2;
+    grid-row-end: 1;
+}
+#isolated{
+    grid-column-start: 3;
+    grid-row-end: 1;
+}
+
+#cell{
+    grid-column-start: 1;
+    grid-row-end: 3;
+}
+
+#aminox{
+    grid-column-start: 2;
+    grid-row-end: 3;
+}
+
+#nitro{
+    grid-column-start: 3;
+    grid-row-end: 3;
+    
+}
+
+#max{
+    grid-column-start: 1;
+    grid-row-end: 5;
+}
+
+#crea{
+    grid-column-start: 2;
+    grid-row-end: 5;
+}
+
+#mega{
+    grid-column-start: 3;
+    grid-row-end: 5;
+}
+
 
 main p {
     margin-left: 0px;
@@ -395,6 +466,8 @@ main p {
     font-size: 30px;
 
 }
+
+
 
 a {
     text-decoration: none;
@@ -418,4 +491,13 @@ footer img {
 }
  
 
+}
+
+.membresy{
+    margin-left: 500px;
+
+}
+
+.membresy img{
+    margin-right: 50px;
 }
