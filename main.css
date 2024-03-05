@@ -40,7 +40,7 @@ aside img{
 }
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 500px) {
     #logo1{
         height: 180px;
     }
@@ -65,13 +65,15 @@ aside img{
     
     #motivation img{
         margin-top: 40px;
-        height: 320px;
-        max-height: 300px;
+        height: 500px;
+        max-width: 300px;
+        max-height: 500px;
         margin-bottom: 30px;
     }
     
     aside img{
         height: 400px;
+        max-width: 300px;
         max-height: 500px;
         margin-bottom: 30px;
     }
@@ -96,7 +98,7 @@ aside img{
         
     }
     
-    @media screen and (min-width:1200px) {
+    @media screen and (min-width: 1200px) {
 
         .membresy-section{
             margin-left: 200px;
@@ -117,12 +119,14 @@ aside img{
         }
         #motivation img{
             height: 400px;
+            max-width: 400px;
             max-height: 500px;
             margin-top: 200px;
         }
         
         aside img{
             height: 600px;
+            max-width: 400px;
             max-height: 600px;
         }
         .membresy{
