@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>        
+        <nav>
+            <table width="100%"  border="0" bgcolor="#eedbcd">
+                <thead>
+                    <tr><th><h1>Full Sport - Tienda de Deportes y Bienestar</h1></th>
+                        <th align="left"><a href="/index.html"><img src="images/logo.PNG" width="100%" alt="logo de FullSport"></a></th>
+                        <th><a href="/index.html">Inicio</a></th>
+                        <th><a href="/deportes.html">Deportes</a></th>
+                        <th><a href="nutricion.html">Nutrición</a></th>
+                        <th><a href="/marcas.html">Marcas</a></th>
+                        <th><a href="/contactenos.html">Contáctanos</a></th>
+                    </tr>
+                </thead>
+            </table>
+        </nav>
+    </header>
+    <hr>
+
+    <table align="center">
+        <caption> <h1> Contáctanos</h1></caption>
+        <form>
+            <tr>
+                <td>
+                    <label for="fullname">Nombre Completo</label>
+                </td>
+                <td>
+                    <input type="text" id="fullname" name="fullname" placeholder="Ingrese el nombre completo"
+                        maxlength="100" minlength="7" pattern="[A-ZÁÉÍÓÚáéíóúñÑa-z\s]+"
+                        title="Ingrese sólo letras y/o espacios, mínimo 7 y máximo 50" required autofocus
+                        autocomplete="off">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Correo Electrónico</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" placeholder="Ingrese correo electrónico" size="50"
+                        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                        title="Ingrese caracteres válidos para el correo" required autocomplete="off">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="numberphone">Teléfono de Contacto</label>
+                </td>
+                <td>
+                    <input 
+                    type="number" 
+                    id="phone" 
+                    name="numberphone" 
+                    placeholder="Ingrese su número de teléfono"
+                    maxlength="10" minlength="10"
+                    title="Ingrese su número de teléfono" 
+                    required autofocus
+                    autocomplete="off">
+                </td>
+            <tr>
+                <td>
+                    <label for="target">Tipo de Mensaje</label>
+                </td>
+                <td>
+                    <select name="target" id="target">
+                        <option value="none" selected disabled>Seleccione el mensaje</option>
+                        <option value="preguntas">Preguntas</option>
+                        <option value="sugerencias">Sugerencias</option>
+                        <option value="quejas">Quejas</option>
+                        <option value="reclamos">Reclamos</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="texto">Mensaje</label>
+                </td>
+                <td>
+                    <input 
+                    type="text" 
+                    placeholder="Ingrese su mensaje aquí" maxlength="500" 
+                    minlength="7" 
+                    pattern="[A-ZÁÉÍÓÚáéíóúñÑa-z\s]+"
+                    title="Ingrese sólo letras y/o espacios, mínimo 7 y máximo 60"
+                    required
+                    autocomplete="off"
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <label for="respuesta">¿Cómo podemos contactarte? </label> 
+                </td>
+                <td>
+                    <input 
+                    type="radio" 
+                    name="respuesta" 
+                    id="email">
+                    Por correo electrónico <br>
+
+                    <input 
+                    type="radio" 
+                    name="respuesta" 
+                    id="phone">
+                    Llamada telefónica <br>
+
+                </td>
+
+                
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <!-- <input type="submit" value="Enviar"> -->
+                    <button type="submit" id="send" name="send">
+                        Enviar
+                    </button>
+
+                    <button type="reset" id="reset" name="reset">
+                        Limpiar
+                    </button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
