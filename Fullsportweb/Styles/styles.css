@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+h2{
+    margin-top: -20px;
+    margin-bottom: 100px;
+
+}
 .membresy-section img{
     height: 100px;
 }

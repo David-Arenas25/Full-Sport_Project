@@ -41,7 +41,7 @@ label{
 }
 
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:200px) {
 
     input{
         width: 80%;
