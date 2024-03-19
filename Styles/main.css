@@ -73,10 +73,12 @@ input {
 
 #pedido{
     grid-row-end: 5;
+
 }
 
 #tienda{
-    grid-row-end: 7;
+    grid-row-end: 5;
+    grid-column-end: 2;
 
 }
 .presentacion img {
