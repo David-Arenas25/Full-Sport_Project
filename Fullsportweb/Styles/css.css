@@ -78,4 +78,13 @@ label{
     .notifications img{
         height: 100px;
     }
+
+    .formulario_login{
+        margin-left: 300px;
+    }
+
+    #labelh2{
+        margin-right: 500px;
+    }
+
 }
