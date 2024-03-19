@@ -5,8 +5,8 @@
 }
 
 h2{
-    margin-top: -20px;
-    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 
 }
 .membresy-section img{
@@ -37,11 +37,15 @@ h2{
     height: 50px;
 }
 #hardcore{
-    grid-row-end: 4;
+    grid-row-end: 2;
 }
 
 #motivacion{
-    grid-row-end: 6;
+    grid-row-end: 4;
+}
+
+#chicas{
+    grid-row: 5;
 }
 
 .membresy{
